@@ -82,11 +82,6 @@ h2{
     width: 100px;
     margin: 0;
 }
-
-
-
-
-
 .box div{
     position: absolute;
     width: 60px;
@@ -155,7 +150,124 @@ h2{
     }
 }
 
-
+@media only screen and (max-width: 992px){
+    #stylings{
+        position: absolute;
+        top: 30%;
+        left: 12%;
+        width: 740px;
+        height: 410px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+}
+@media only screen and (max-width: 576px){
+    .wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    #stylings{
+        left: 10%;
+        width: 300px;
+        padding-top: 20px;
+    }
+    #span1{
+        width: 300px;
+        font-size: 18pt;
+        margin-left: 50px;
+    }
+    h2{
+        left: 55%;
+        font-size: 22pt;
+        font-weight: bold;
+        width: 300px;
+    }
+    #addPlan{
+        top: 20%;
+        left: 12%;
+        width: 150px;
+        height: 25px;
+        font-size: 12pt;
+    }
+    #insert{
+        position: absolute;
+        top: 19.8%;
+        left: 57%;
+        width: 50px;
+        height: 30px;
+        font-size: 10pt;
+    }
+    #deleteAll{
+        position: absolute;
+        top: 19.8%;
+        left: 71%;
+        width: 80px;
+        height: 30px;
+        font-size: 10pt;
+    }
+    .row{
+        font-size: 12pt;
+        padding: 2px;
+        width: 170px;
+        margin: 0;
+        display: inline-block;
+    }
+    .btn{
+        font-size: 9pt;
+        padding: 2px;
+        width: 40px;
+        margin: 0;
+    }
+    .box div:nth-child(1){
+        top: 12%;
+        left: 20%;
+        animation: animate 10s linear infinite;
+    }
+    .box div:nth-child(2){
+        top: 70%;
+        left: 70%;
+        animation: animate 7s linear infinite;
+    }
+    .box div:nth-child(3){
+        top: 17%;
+        left: 6%;
+        animation: animate 9s linear infinite;
+    }
+    .box div:nth-child(4){
+        top: 20%;
+        left: 65%;
+        animation: animate 10s linear infinite;
+    }
+    .box div:nth-child(5){
+        top: 77%;
+        left: 10%;
+        animation: animate 6s linear infinite;
+    }
+    .box div:nth-child(6){
+        top: 60%;
+        left: 77%;
+        animation: animate 12s linear infinite;
+    }
+    .box div:nth-child(7){
+        top: 60%;
+        left: 60%;
+        animation: animate 15s linear infinite;
+    }
+    .box div:nth-child(8){
+        top: 32%;
+        left: 15%;
+        animation: animate 16s linear infinite;
+    }
+    .box div:nth-child(9){
+        top: 85%;
+        left: 12%;
+        animation: animate 9s linear infinite;
+    }
+    .box div:nth-child(10){
+        top: 20%;
+        left: 60%;
+        animation: animate 5s linear infinite;
+    }
+}
 
 
 
